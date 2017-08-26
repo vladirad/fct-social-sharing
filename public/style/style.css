@@ -1,0 +1,61 @@
+.fct_social.floatleft {
+	position: fixed;
+	left: 0;
+	top: 150px;
+	padding: 20px;
+	border-radius: 0 5px 5px 0;
+	z-index: 999;
+	background: #fff;
+	border: 1px solid #333;
+}
+
+.fct_social.floatleft .fctbuttons a {
+	display: block;
+	margin: 10px;
+}
+
+.fct_social.floatleft .fctheading {
+	display: none;
+}
+.fctbuttons {
+	margin: 10px 0;
+}
+
+
+.fctbuttons a {
+	text-decoration: none!important;
+	display: inline!important;
+	transition: 0.3s all ease!important;
+}
+
+.fctbuttons a:hover {
+	color: #666!important;
+	transition: 0.3s all ease;
+}
+
+
+h5.fctheading {
+	margin-bottom: 5px!important;
+}
+
+.fctbuttons i.smallicon {
+	font-size: 24px;
+}
+
+.fctbuttons i.mediumicon {
+	font-size: 36px;
+}
+
+.fctbuttons i.largeicon {
+	font-size: 48px;
+}
+
+.fctbuttons a.fctwa {
+	display: none;
+}
+
+@media screen and (max-width: 480px) {
+	.fctbuttons a.fctwa {
+		display: inline-block;
+	}
+}
